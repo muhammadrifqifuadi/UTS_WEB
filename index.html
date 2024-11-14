@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nama Bisnis</title>
+    <script src="script.js"></script> 
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <h1>Seastuca Wedding House</h1>
+        </div>
+        <nav class="nav-bar">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#layanan">Layanan</a></li>
+                <li><a href="#kontak">Kontak</a></li>
+            </ul>
+        </nav>
+        <div class="hamburger" onclick="toggleMenu()">
+            &#9776;
+        </div>
+        <div class="dropdown-menu">
+            <a href="#home">Home</a>
+            <a href="#layanan">Layanan</a>
+            <a href="#kontak">Kontak</a>
+        </div>
+    </header>
+    
+
+    <main>
+        <section class="hero">
+            <div class="hero-description">
+                <h2>Welcome, Seastuca Wedding House</h2>
+                <p>Jasa penyedia layanan dan produk yang diperlukan untuk Acara Tunangan dan Pernikahan</p>
+            </div>
+            <img src="Gambar/logo.jpeg" alt="Logo">
+        </section>
+
+        <section class="services">
+            <h2>LAYANAN KAMI</h2>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Layanan</th>
+                            <th>Deskripsi</th>
+                            <th>Harga</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Engagement and wedding tray</td>
+                            <td>Jasa Pembuatan atau penyewaan kotak atau nampan untuk hantaran Tunangan dan pernikahan.</td>
+                            <td rowspan="3">Rp. 300.000 / 6 Box</td>
+                        </tr>
+                        <tr>
+                            <td>Mahar</td>
+                            <td>Jasa Pembuatan mahar atau seserahan untuk acara Tunangan atau pernikahan.</td>
+                        </tr>
+                        <tr>
+                            <td>Decoration Package</td>
+                            <td>Paket dekorasi untuk berbagai kebutuhan, terutama dalam acara Tunangan dan Pernikahan.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <section class="product-section">
+            <h2>PRODUK KAMI</h2>
+            <div class="products-container">
+                <div class="product-item">
+                    <img src="Gambar/1.png" alt="Produk 1">
+                    <p><b>Box 1</b></p>
+                    <p>Alat-Alat Makup</p>
+                </div>
+                <div class="product-item">
+                    <img src="Gambar/4.png" alt="Produk 2">
+                    <p><b>Box 2</b></p>
+                    <p>Alat-Alat Mandi</p>
+                </div>
+                <div class="product-item">
+                    <img src="Gambar/5.png" alt="Produk 3">
+                    <p><b>Box 3</b></p>
+                    <p>Aksesoris</p>
+                </div>
+                <div class="product-item">
+                    <img src="Gambar/3.png" alt="Produk 2">
+                    <p><b>Box 4</b></p>
+                    <p>Sovenir</p>
+                </div>
+                <div class="product-item">
+                    <img src="Gambar/10.png" alt="Produk 3">
+                    <p><b>Box 5</b></p>
+                    <p>Aksesoris Wanita</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact-section">
+            <h2>KONTAK KAMI</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Nama" required>
+                <input type="email" placeholder="Email" required>
+                <textarea rows="4" placeholder="Pesan" required></textarea>
+                <button type="submit">Kirim</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <div>
+            <p>Alamat: Jl. Laban Gg. Kelapa Gading No. 18 Rt. 05 Rw. 09 Desa Jatibogor Kec. Suradadi Kab. Tegal 52182</p>
+        </div>
+        <div class="social-icons">
+            <a href="https://wa.me/+6281998966639"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://www.instagram.com/seastuca"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.tiktok.com/@seastuca"><i class="fab fa-tiktok"></i></a>
+        </div>
+    </footer>
+
+    <div id="productModal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <img id="modalImage" src="" alt="Product Image">
+            <h3 id="modalTitle">Product Title</h3>
+            <p id="modalDescription">Product Description</p>
+        </div>
+    </div>
+</body>
+
+</html>
