@@ -10,8 +10,9 @@
             color: #333;
         }
 
+        /* Header & navigation */
         header {
-            background-color: #dca66cc9;
+            background-color: #b99d7f7f;
             padding: 30px 20px;
             display: flex;
             justify-content: space-between;
@@ -52,7 +53,7 @@
             margin-top: 120px;
         }
 
-
+        /* Hamburger */
         .hamburger {
             display: none;
             font-size: 1.4em;
@@ -67,7 +68,7 @@
             top: 90px;
             right: 0px;
             padding-top: 30px;
-            background-color: #dca66cc9;
+            background-color: #b99d7f7f;
             box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
         }
@@ -96,6 +97,8 @@
             } 
         }
 
+        /* content */
+        /* Hero Section */
         .hero {
             display: flex;
             align-items: center;
@@ -132,7 +135,7 @@
             width: 25%;
         }
 
-
+        /* About Section */
         .services {
             margin-top: 20px;
             text-align: center;
@@ -160,7 +163,7 @@
 
         th, td {
             padding: 15px;
-            border: 1px solid #000000;
+            border: 2px solid #000000;
         }
 
         th {
@@ -171,6 +174,8 @@
             background-color: #fff;
         }
 
+
+        /* Product Section */
         .product-section {
             padding:80px;
             text-align: center;
@@ -216,6 +221,8 @@
             border-radius: 8px;
         }
 
+
+        /* Muncul Product */
         #productModal {
             display: none;
             position: fixed;
@@ -270,6 +277,7 @@
         }
         
 
+        /* Contact section */
         .contact-section {
             padding:80px;
             text-align: center;
@@ -293,6 +301,8 @@
             resize: vertical;
         }
 
+
+        /* Footer */
         footer {
             background-color: #E6D1BA;
             color: white;
