@@ -1,8 +1,12 @@
-    function toggleMenu() {
-        const dropdown = document.querySelector('.dropdown-menu');
-        dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
-    }
 
+// Hamburger
+function toggleMenu() {
+    const dropdown = document.querySelector('.dropdown-menu');
+    dropdown.style.display = dropdown.style.display === 'block' ? 'none' : 'block';
+}
+
+
+// popup Product
 document.addEventListener("DOMContentLoaded", function () {
     const modal = document.getElementById("productModal");
     const modalImage = document.getElementById("modalImage");
